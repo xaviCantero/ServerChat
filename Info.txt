@@ -1,0 +1,13 @@
+Protocolo TCP/IP
+        Server                              Cliente
+        ***********                         ************
+        new ServerSocket(int port);          new Socket(String ip, int port);
+        
+        InputStream         <----------     OutputStream
+        OutputStream        ---------->     ImputStream
+    
+        .close();                           .close();
+    
+        BufferedInputStream - BufferedOuputStream:  Buffer de Bytes
+        DataInputStream - DataOutputStream: Datos  primitivos de Java
+        ObjectInputStream - ObjectOutputStream: Objetos de Java
